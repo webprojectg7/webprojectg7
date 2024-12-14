@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color:#362d27;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+   color: white;
+    background-color: #362d27;
+  
+}
+header a{
+text-align: center;
+   text-decoration: none;
+   color: white;
+ 
+}
+header a:hover{
+    background-color: darkmagenta;
+}
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+.menu {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu-item h2 {
+    margin: 0.5rem 0;
+}
+
+.menu-item p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.menu-item a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+}
+
+button {
+  
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+ background-color: green;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #362d27;
+    color: #fff;
+}
+
+
+/* Responsive Styles */
+@media (max-width:720px) {
+    .menu {
+        grid-template-columns: 1fr ;
+    }
+}
+@media (min-width:720px) and  (max-width:960px){
+    .menu{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+

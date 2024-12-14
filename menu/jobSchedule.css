@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+header a{
+    text-align: center;
+       text-decoration: none;
+       color: white;
+     
+    }
+    header a:hover{
+        background-color: darkmagenta;
+    }
+
+nav {
+    margin: 1rem 0;
+}
+
+.schedule {
+    margin: 2rem;
+}
+
+.schedule h2 {
+    text-align: center;
+    color: #333;
+}
+.schedule h3{
+    text-align: center;
+    color: #333;
+} 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    
+    bottom: 0;
+    width: 100%;
+}
